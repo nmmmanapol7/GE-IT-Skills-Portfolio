@@ -67,3 +67,17 @@ Format: Output in clear Markdown with exactly three actionable steps under the h
 * **Hallucination Vectors Identified:** The AI model demonstrated a high propensity for "prestige fabrication"—inventing standard academic citations matching common Filipino surnames to sound authoritative. 
 * **Systemic Biases Caught:** The engine exhibits a structural bias toward techno-optimism. It assumed that a mandate for "computerized ledger systems" automatically equals implementation, completely erasing the localized infrastructure realities of upland Mindanao (intermittent power grids and unpaved, isolated roads).
 * **Policy Recommendation:** Moving forward, AI synthesis will strictly be restricted to the *first-pass mapping* of text structures. Quantitative data points, specifically regarding agricultural asset valuations and cooperative dividend computations in the Davao Region, must remain subject to manual validation against official LGU Provincial Ledgers and verified CDA regional publications.
+
+---
+
+---
+
+### 📊 Data Analytics & Visual Report
+
+#### Dataset Focus: Davao Region Agricultural Production Index (Mock CSV Analysis)
+
+#### 1. Data Cleaning Protocol Log
+* **Raw Input Problem:** The source CSV file (`Davao_Agri_Yield_Q1Q4_Raw.csv`) suffered from severe structural anomalies: missing row data for the critical 2023 climate transition fiscal year, non-standardized units (mixing metric tons, kilograms, and localized market weight counts like *kaing* boxes), and duplicated entries caused by conflicting municipal cooperative codes.
+* **AI Cleaning Instruction:** 
+```text
+  "Scan the attached dataset. Isolate all null values in the 'Yield_Volume' column and impute them using the median value calculated strictly for that specific crop tier and municipality. Standardize all mass metrics to metric tons (MT), stripping out text strings like 'kg' or 'tons'. Consolidate duplicate municipal entries by computing a weighted average across overlapping timestamps. Output the first 5 rows of the cleaned table."
