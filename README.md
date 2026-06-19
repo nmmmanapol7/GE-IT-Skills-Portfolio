@@ -18,3 +18,6 @@ Detail-oriented and leadership-driven First-Year B.S. in Accountancy student wit
 **Interactive Interaction Motion**
 ![Simple video using Canva](./Media/Interactive-Interaction-Motion.mp4)
 > A simple video showing an interactive interaction motion using basic animations and transitions to show my information and hobbies. The style is inspired by an opening billboard (OBB) of a news telivision franchise to connect it to my passion in mobile journalism and content creation.
+---
+### Prompt Engineering Playbook
+![Prompt Engineering Playbook](./prompt-engrineering/README.md)
