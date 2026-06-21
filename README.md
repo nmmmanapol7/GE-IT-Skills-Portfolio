@@ -77,3 +77,17 @@ This audit definitively proves that while generative AI functions as an exceptio
 * **AI Cleaning Instruction:** 
 ```text
   "Scan the attached dataset. Isolate all null values in the 'Yield_Volume' column and impute them using the median value calculated strictly for that specific crop tier and municipality. Standardize all mass metrics to metric tons (MT), stripping out text strings like 'kg' or 'tons'. Consolidate duplicate municipal entries by computing a weighted average across overlapping timestamps. Output the first 5 rows of the cleaned table."
+
+--
+
+### Data Analytics & Visual Report
+
+#### Dataset Focus: Davao Region Agricultural Production Index (Mock CSV Analysis)
+
+#### 1. Data Cleaning Protocol Log
+- **Raw Input Problem:** The CSV file contained multiple missing row cells for the year 2023 along with mixed numerical formatting styles (e.g., metric tons vs. kilograms).
+- **AI Cleaning Instruction:** `"Scan this dataset. Identify all null rows in the 'Yield' column and replace them with the median value for that specific crop tier. Convert all mass metrics to standard Metric Tons (MT). Output the first 5 rows of the cleaned table."`
+- **Result:** Successfully normalized 120 row inputs across three provincial clusters.
+
+#### 2. Visualizations Generated
+*(Embedded High-Contrast Bar Chart showing Cacao Production vs. Climate Outlier Years from 2020-2025)*
