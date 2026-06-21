@@ -34,7 +34,7 @@ Format: Output in clear Markdown with exactly three actionable steps under the h
 | Version | Prompt Modifier Added | Output Quality Reflection |
 | :--- | :--- | :--- |
 | V1 | "Write a plan to audit troubled cooperatives in Davao." | Too broad. Output generic corporate auditing checklists and mentioned international multi-national trading laws irrelevant to a local grassroots collective. |
-| V2 | Added LGU consultant persona and named specific regional agricultural sectors (cacao and banana). | Output improved, but the language became overly academic and dense for local cooperative board members and purok leaders to easily implement. |
+| V2 | Added LGU consultant persona and named specific regional agricultural sectors cacao and banana. | Output improved, but the language became overly academic and dense for local cooperative board members and purok leaders to easily implement. |
 | V3 | Added a 300-word limit, explicit local constraints, and strictly prohibited global accounting frameworks in favor of local barangay micro-finance structures. | Target hit. Highly direct, culturally aware, actionable, and hyper-localized to the actual administrative landscape of Davao cooperatives. |
 
 #### 3. Visual Branding Asset
