@@ -15,9 +15,9 @@ Detail-oriented and leadership-driven First-Year B.S. in Accountancy student wit
 
 > Used a clean, cream-colored card overlay to separate the core details from the dynamic, textured background. The choice of bold purple typography and matching abstract ribbons creates a cohesive visual identity tied to the "Audit.ly" branding, while the "YES INDEED" block text provides a strong focal point. Additionally, the inclusion of modern vector icons for the logistics and a 3D laptop rendering helps immediately communicate the technical, financial, and digital nature of the masterclass.
 
-**Interactive Interaction Motion**
-![Simple video using Canva](./Media/Interactive-Interaction-Motion.mp4)
-> A simple video showing an interactive interaction motion using basic animations and transitions to show my information and hobbies. The style is inspired by an opening billboard (OBB) of a news telivision franchise to connect it to my passion in mobile journalism and content creation.
+**Infographic on Research and Documentation**
+![Infographic](./Docs/Infographics-on-Research-Documentation.png)
+> A creative infographics showing the impact of Philippine Pop Music in the AdDU SHS students. This covers each chapter of the study signficantly highlighting its purpose and findings. The style was inspired by the app Spotify which is relevant to the research topic.
 
 ---
 
