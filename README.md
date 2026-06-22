@@ -19,6 +19,9 @@ Detail-oriented and leadership-driven First-Year B.S. in Accountancy student wit
 ![Infographic](./Docs/Infographics-on-Project-Documentation.png)
 > A creative infographics showing the impact of Philippine Pop Music in the AdDU SHS students. This covers each chapter of the study signficantly highlighting its purpose and findings. The style was inspired by the app Spotify which is relevant to the research topic.
 
+## This has been Nesza!
+This portfolio marks my growth and creativity that I will continue to nurture and flourish. May this inspire you to tap onto these same set of skills. Yes Indeed!
+
 ---
 
 ### The Davao Cooperative Financial Monitoring Prompt System
@@ -72,8 +75,21 @@ This audit definitively proves that while generative AI functions as an exceptio
 
 #### Dataset Focus: Davao Region Agricultural Production Index (Mock CSV Analysis)
 
-#### 1. Data Cleaning Protocol Log
-* **Raw Input Problem:** The source CSV file (`Davao_Agri_Yield_Q1Q4_Raw.csv`) suffered from severe structural anomalies: missing row data for the critical 2023 climate transition fiscal year, non-standardized units (mixing metric tons, kilograms, and localized market weight counts like *kaing* boxes), and duplicated entries caused by conflicting municipal cooperative codes.
-* **AI Cleaning Instruction:** 
-```text
-  "Scan the attached dataset. Isolate all null values in the 'Yield_Volume' column and impute them using the median value calculated strictly for that specific crop tier and municipality. Standardize all mass metrics to metric tons (MT), stripping out text strings like 'kg' or 'tons'. Consolidate duplicate municipal entries by computing a weighted average across overlapping timestamps. Output the first 5 rows of the cleaned table."
+### 1. Data Cleaning Protocol Log
+- **Raw Input Problem:** The source CSV file ('Davao_Agri_Yield_Q1Q4_Raw.csv') suffered from severe structural anomalies: missing row data for the critical 2023 climate transition fiscal, non-standardized units (meixing metric tons, kilograms, and localized market weight counts like *kaing* boxes), and duplicated entries caused by conflicting municipal cooperative codes.
+- **AI Cleaning Instruction:**
+  '"Identify null values in the 'Kilograms' column and replace them using the median per product category. Standardize all units into Metric Tons (MT). Remove duplicate barangay-month entries. Output a cleaned dataset summary of key statistics."'
+- **Result:** Successfully standardized agricultural products records across multiple barangays and normalized unit inconsistencies, producing a clean dataset for visualization.
+
+### 2. Visualizations Generated
+
+**Chart 1: Monthly Production Generation Trend (Davao City, 2023--2026)**
+"Ultimately, the data suggests that without targeted local interventions, increasing production will continue to outpace current production capacity, creating long-term environmental and logisitcal pressures on the city."
+
+**Chart 2: Production Quality Performance Index by Factory (%)**
+
+### 3. Human Analytical Narrative (The 'Why' Factor)
+
+"The cleaned dataset reveals a gradual increase in total agricultural production across Davao City from 2023 to 2025, reflecting both population growth and rising consumption patterns. However, production compliance remains uneven across farms, with significant disparities between high-performing and low-performing areas. While the AI-generated summary initially attributed fluctuations in waste volume to seasonal changes alone, manual interpretaiton suggests deeper structural and facility issues such as incosistent production and regulation policies and limited access to such facilities and projects in lower-production areas.
+
+This hihglights the need for stronger LGU-level intervention, particulary in strengthening projects and access to such initiatives and expanding community-based waste recovery programs."
